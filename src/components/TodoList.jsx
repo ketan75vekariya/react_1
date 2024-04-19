@@ -1,7 +1,4 @@
-function TodoList2() {
-  let task = "Eat";
-  let taskDate = "12/07/2024";
-
+function TodoList({ task, taskDate }) {
   return (
     <div className="container todo-container mb-3">
       <div className="row">
@@ -20,4 +17,4 @@ function TodoList2() {
     </div>
   );
 }
-export default TodoList2;
+export default TodoList;
